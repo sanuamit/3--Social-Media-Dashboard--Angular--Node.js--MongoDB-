@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dashboard</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="font-sans bg-gray-100">
+  <div class="flex h-screen bg-gray-200">
+    <!-- Sidebar -->
+    <div class="w-64 bg-blue-900 text-white p-4">
+      <h1 class="text-xl font-semibold mb-6">Dashboard</h1>
+      <ul>
+        <li class="mb-4">
+          <a href="#" class="text-blue-300 hover:text-white">Home</a>
+        </li>
+        <li class="mb-4">
+          <a href="#" class="text-blue-300 hover:text-white">Users</a>
+        </li>
+        <li class="mb-4">
+          <a href="#" class="text-blue-300 hover:text-white">Settings</a>
+        </li>
+        <li>
+          <a href="#" class="text-blue-300 hover:text-white">Logout</a>
+        </li>
+      </ul>
+    </div>
+
+    <!-- Main Content -->
+    <div class="flex-1 p-6">
+      <!-- Top Bar -->
+      <div class="bg-white shadow-sm p-4 mb-6 flex items-center justify-between">
+        <h2 class="text-xl font-semibold">Welcome to Your Dashboard</h2>
+        <div class="flex items-center space-x-4">
+          <button class="bg-blue-600 text-white px-4 py-2 rounded">Profile</button>
+          <button class="bg-blue-600 text-white px-4 py-2 rounded">Notifications</button>
+        </div>
+      </div>
+
+      <!-- Dashboard Content -->
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <!-- Card 1 -->
+        <div class="bg-white p-6 rounded-lg shadow-lg">
+          <h3 class="text-lg font-semibold mb-4">Card 1</h3>
+          <p class="text-gray-600">Content for card 1.</p>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="bg-white p-6 rounded-lg shadow-lg">
+          <h3 class="text-lg font-semibold mb-4">Card 2</h3>
+          <p class="text-gray-600">Content for card 2.</p>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="bg-white p-6 rounded-lg shadow-lg">
+          <h3 class="text-lg font-semibold mb-4">Card 3</h3>
+          <p class="text-gray-600">Content for card 3.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
